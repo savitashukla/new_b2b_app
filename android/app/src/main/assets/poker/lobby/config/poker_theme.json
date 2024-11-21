@@ -1,0 +1,2280 @@
+{
+  "pokerLobbyTheme": {
+    "screenBackground": {
+      "bgColor": ["#646464", "#646464"],
+      "bgOrientation": "LR"
+    },
+    "noDataTextStyle": {
+      "color": "#707486",
+      "fontType": "lobbyType1FontRegular"
+    },
+    "headerTheme": {
+      "toolBarTheme": {
+        "toolBarBackground": {
+          "bgColor": ["#1e1e1e", "#1e1e1e"],
+          "bgOrientation": "LR"
+        },
+        "titleTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontBold"
+        },
+        "itemDefaultTextStyle": {
+          "color": "#658cad",
+          "fontType": "lobbyDefaultFontRegular"
+        },
+        "itemSelectedTextStyle": {
+          "color": "#FFFFFFFF",
+          "fontType": "lobbyDefaultFontRegular"
+        }
+      },
+      "bannerIndicator": {
+        "active": "#02e4a0",
+        "inactive": "#6589aa"
+      },
+      "mainLobbyGamesTab": {
+        "dividerColor" : "#0e1721",
+        "activeBg": {
+          "bgColor": ["#333333","#333333","#333333"],
+          "bgOrientation": "LR"
+        },
+        "inactiveBg": {
+          "bgColor": ["#494949", "#494949"],
+          "bgOrientation": "LR"
+        },
+        "inactiveTextBg": {
+          "bgColor": ["#333333", "#333333"],
+          "bgOrientation": "TB"
+        },
+        "activeTextBg": {
+          "bgColor": ["#333333","#333333"],
+          "bgOrientation": "TB"
+        },
+        "activeTabTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyDefaultFont",
+          "textSize" : 0.0
+        },
+        "inactiveTabTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyDefaultFont",
+          "textSize" : 0.0
+        }
+      }
+    },
+    "gameVariantTheme": {
+
+      "gameVariantBg": {
+        "bgColor": ["#4a4a4a", "#4a4a4a"],
+        "bgOrientation": "LR"
+      },
+
+      "filterSelectedTheme": {
+        "bgColor": ["#333333", "#333333"],
+        "bgOrientation": "LR"
+      },
+      "filterUnSelectedTheme": {
+        "bgColor": ["#494949", "#494949"],
+        "bgOrientation": "LR"
+      },
+
+      "activeGameTheme": {
+        "btnBg": {
+          "bgColor": ["#333333", "#333333"],
+          "bgOrientation": "LR"
+        },
+
+        "btnTextStyle":  {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontMedium"
+        }
+      },
+
+      "inActiveGameTheme": {
+        "btnBg": {
+          "bgColor": ["#494949", "#494949"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle":  {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontRegular"
+        }
+      }
+
+    },
+    "gamesTypeTheme": {
+      "cashGameTheme": {
+        "cashGameSortingTheme": {
+          "sortingBg": {
+            "bgColor": ["#4a4a4a", "#4a4a4a"],
+            "bgOrientation": "LR"
+          },
+          "itemTextStyle": {
+            "color": "#ffffff",
+            "fontType": "lobbyType1FontRegular"
+          }
+        },
+
+        "cashGameItemTheme": {
+          "dividerColor": "#E7E8EB",
+          "itemBg": {
+            "bgColor": ["#FFFFFF", "#FFFFFF"],
+            "bgOrientation": "LR"
+          },
+          "joinBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#01C981", "#009C4D"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "blindTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "buyInTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "playerTextStyle": {
+            "color": "#707486",
+            "fontType": "lobbyDefaultFontMedium"
+          },
+          "roomNameTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "nlheTextStyle": {
+            "color": "#C56401",
+            "fontType": "lobbyDefaultFont"
+          },
+          "ploTextStyle": {
+            "color": "#6D2AB6",
+            "fontType": "lobbyDefaultFont"
+          },
+          "plo5TextStyle": {
+            "color": "#B62A7E",
+            "fontType": "lobbyDefaultFont"
+          },
+          "seatMaxTextStyle": {
+            "color": "#009A4B",
+            "fontType": "lobbyDefaultFont"
+          },
+          "bonusTextStyle": {
+            "color": "#111835",
+            "textSize": 8.0,
+            "fontType": "lobbyType1FontRegular"
+          },
+          "ritTextStyle": {
+            "color": "#007BC2",
+            "fontType": "lobbyDefaultFont"
+          },
+          "anonTextStyle": {
+            "color": "#0083ff",
+            "fontType": "lobbyDefaultFont"
+          },
+          "evTextStyle": {
+            "color": "#02d5e4",
+            "fontType": "lobbyDefaultFont"
+          },
+          "practiceGameTextBgColor": "#EFD4FC",
+          "practiceGameTextStyle": {
+            "color": "#763590",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "roomNameBgColor": "#00000000"
+        }
+      },
+      "pokerTournamentTheme": {
+        "pokerTournamentSectionTheme": {
+          "featuredTextStyle": {
+            "color": "#02E4A0",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "viewAllTextStyle": {
+            "color": "#6591b2",
+            "fontType": "lobbyDefaultFont"
+          },
+          "commonSectionTextStyle": {
+            "color": "#6591b2",
+            "fontType": "lobbyType1FontRegular"
+          }
+        },
+
+        "pokerTournamentItemTheme": {
+          "dividerColor": "#E7E8EB",
+          "itemBg": {
+            "bgColor": ["#FFFFFF", "#FFFFFF"],
+            "bgOrientation": "LR"
+          },
+
+          "registerBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#01C981", "#009C4D"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "runningBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#A0A3AE", "#A0A3AE"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "playingBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#6D2AB6", "#6D2AB6"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "cancelBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#A0A3AE", "#A0A3AE"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "registeredBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#01C981", "#009C4D"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "lateRegBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#C56401", "#C56401"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "tNameTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyType1FontBold"
+          },
+
+          "featuredTournamentNameTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontBold"
+          },
+
+          "playerEntryTextStyle": {
+            "color": "#707486",
+            "fontType": "lobbyType1FontMedium"
+          },
+
+          "prizepoolLabelTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "prizepoolValueTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "buyInLabelTextStyle": {
+            "color": "#707486",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "buyInValueTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "timeTextStyle": {
+            "color": "#D14B54",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "nlheTextStyle": {
+            "color": "#C56401",
+            "fontType": "lobbyDefaultFont"
+          },
+          "ploTextStyle": {
+            "color": "#6D2AB6",
+            "fontType": "lobbyDefaultFont"
+          },
+          "plo5TextStyle": {
+            "color": "#B62A7E",
+            "fontType": "lobbyDefaultFont"
+          },
+          "seatMaxTextStyle": {
+            "color": "#009A4B",
+            "fontType": "lobbyDefaultFont"
+          },
+          "speedTextStyle": {
+            "color": "#0083ff",
+            "fontType": "lobbyDefaultFont"
+          },
+          "mftTextStyle": {
+            "color": "#f2e100",
+            "fontType": "lobbyDefaultFont"
+          },
+          "reEntryTextStyle": {
+            "color": "#00d123",
+            "fontType": "lobbyDefaultFont"
+          },
+          "tTypeTextStyle": {
+            "color": "#00d123",
+            "fontType": "lobbyDefaultFont"
+          },
+          "endsInLabelTextStyle": {
+            "color": "#ffffff",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "endsInValueTextStyle": {
+            "color": "#ff9215",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "startInInValueTextStyle": {
+            "color": "#D14B54",
+            "fontType": "lobbyDefaultFont"
+          },
+          "startInValueBg": {
+            "bgColor": ["#E7E8EB", "#E7E8EB"],
+            "bgOrientation": "LR"
+          }
+        }
+      },
+      "pokerPvtTableTheme": {
+        "privateTableBg": {
+          "bgColor": ["#170C29", "#170C29"],
+          "bgOrientation": "LR"
+        },
+
+        "pokerPvtTableItemTheme": {
+          "commissionTextBg": {
+            "btnBg": {
+              "bgColor": ["#C56401", "#C56401"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyType1FontMedium"
+            }
+          },
+
+          "itemBg": {
+            "bgColor": ["#FFFFFF", "#FFFFFF"],
+            "bgOrientation": "LR"
+          },
+          "joinBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#01C981", "#009A4B"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "createBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#6D2AB6", "#6D2AB6"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+          "detailsBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#6D2AB6", "#6D2AB6"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "headerLabelTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontMedium"
+          },
+          "descriptionLabelTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+
+          "createdTextStyle": {
+            "color": "#009A4B",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+
+          "infoBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#E7E8EB", "#E7E8EB"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#41465D",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "amountBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#E7E8EB", "#E7E8EB"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#C56401",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+          "enterPinEditTextStyle": {
+            "btnBg": {
+              "bgColor": ["#E7E8EB", "#E7E8EB"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#707486",
+              "fontType": "lobbyDefaultFont"
+            }
+          }
+        }
+      },
+      "pokerSnGTheme": {
+        "pokerSnGSectionTheme": {
+          "featuredTextStyle": {
+            "color": "#02e4a0",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "viewAllTextStyle": {
+            "color": "#6591b2",
+            "fontType": "lobbyDefaultFont"
+          },
+          "commonSectionTextStyle": {
+            "color": "#6591b2",
+            "fontType": "lobbyType1FontRegular"
+          }
+        },
+
+        "pokerSnGItemTheme": {
+          "dividerColor": "#E7E8EB",
+          "itemBg": {
+            "bgColor": ["#FFFFFF", "#FFFFFF"],
+            "bgOrientation": "LR"
+          },
+
+          "registerBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#01C981", "#009A4B"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "runningBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#A0A3AE", "#A0A3AE"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "playingBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#6D2AB6", "#6D2AB6"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "cancelBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#6591b2", "#6591b2"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "registeredBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#01C981", "#009A4B"],
+              "bgOrientation": "TB"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "lateRegBtnTheme": {
+            "btnBg": {
+              "bgColor": ["#C56401", "#C56401"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#ffffff",
+              "fontType": "lobbyDefaultFont"
+            }
+          },
+
+          "tNameTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontRegular"
+          },
+
+          "featuredTournamentNameTextStyle": {
+            "color": "#1d3252",
+            "fontType": "lobbyType1FontBold"
+          },
+
+          "playerEntryTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontRegular"
+          },
+
+          "prizepoolLabelTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "prizepoolValueTextStyle": {
+            "color": "#C56401",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "buyInLabelTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "buyInValueTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "timeTextStyle": {
+            "color": "#C56401",
+            "fontType": "lobbyDefaultFontRegular"
+          },
+          "nlheTextStyle": {
+            "color": "#C56401",
+            "fontType": "lobbyDefaultFont"
+          },
+          "ploTextStyle": {
+            "color": "#6D2AB6",
+            "fontType": "lobbyDefaultFont"
+          },
+          "plo5TextStyle": {
+            "color": "#B62A7E",
+            "fontType": "lobbyDefaultFont"
+          },
+
+          "seatMaxTextStyle": {
+            "color": "#009A4B",
+            "fontType": "lobbyDefaultFont"
+          },
+          "speedTextStyle": {
+            "color": "#0083ff",
+            "fontType": "lobbyDefaultFont"
+          },
+
+          "reEntryTextStyle": {
+            "color": "#00d123",
+            "fontType": "lobbyDefaultFont"
+          },
+          "tTypeTextStyle": {
+            "color": "#00d123",
+            "fontType": "lobbyDefaultFont"
+          },
+          "endsInLabelTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyType1FontRegular"
+          },
+          "endsInValueTextStyle": {
+            "color": "#C56401",
+            "fontType": "lobbyDefaultFont"
+          },
+          "startInInValueTextStyle": {
+            "color": "#39af4a",
+            "fontType": "lobbyDefaultFont"
+          },
+          "playerBar": {
+            "defaultEmptyColor": "#6591b2",
+            "lateRegFilledColor": "#fb7a3b",
+            "registerFilledColor": "#02e4a0",
+            "registeredFilledColor": "#02e4a0",
+            "runningFilledColor": "#fb7a3b",
+            "completedFilledColor": "#fb7a3b",
+            "playingFilledColor": "#fb7a3b"
+          }
+        }
+      }
+    },
+    "settingsTheme": {
+      "screenBg": "#E5E5E5",
+      "switchTrackSelected": "#39B54A",
+      "switchTrackUnselected": "#5C8099",
+      "switchThumb": "#FFFFFF",
+      "dividerColor": "#E7E8EB",
+      "toolBarTheme": {
+        "toolBarBackground": {
+          "bgColor": ["#1e1e1e", "#1e1e1e"],
+          "bgOrientation": "LR"
+        },
+        "titleTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "subHeaderTheme": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "subHeaderThemeInactive": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "settingTitleBg": {
+        "btnBg": {
+          "bgColor": ["#FFFFFF", "#FFFFFF"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "onOffTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontMedium"
+      },
+      "betSettings": {
+        "background": {
+          "btnBg": {
+            "bgColor": ["#ffffff", "#ffffff"],
+            "bgOrientation": "LR"
+          }
+        },
+        "tabs": {
+          "tabActive": {
+            "btnBg": {
+              "bgColor": ["#E7E8EB", "#E7E8EB"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#111835",
+              "fontType": "lobbyType1FontMedium"
+            }
+          },
+          "tabInActive": {
+            "btnBg": {
+              "bgColor": ["#F3F3F5", "#F3F3F5"],
+              "bgOrientation": "LR"
+            },
+            "btnTextStyle": {
+              "color": "#707486",
+              "fontType": "lobbyType1FontRegular"
+            }
+          }
+        },
+        "headings": {
+          "btnBg": {
+            "bgColor": ["#F3F3F5", "#F3F3F5"],
+            "bgOrientation": "LR"
+          },
+          "btnTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontRegular"
+          }
+        },
+        "subHeading": {
+          "btnTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontMedium"
+          }
+        },
+        "settingsOptions": {
+          "minMaxBg": {
+            "bgColor": ["#E7E8EB", "#E7E8EB"],
+            "bgOrientation": "LR"
+          },
+          "middleColumnDropdownBg": {
+            "bgColor": ["#E7E8EB", "#E7E8EB"],
+            "bgOrientation": "LR"
+          },
+          "rightColumnDropdownBg": {
+            "bgColor": ["#E7E8EB", "#E7E8EB"],
+            "bgOrientation": "LR"
+          },
+          "divider": "#A0A3AE",
+          "btnTextStyle": {
+            "color": "#111835",
+            "fontType": "lobbyType1FontRegular"
+          }
+        },
+        "demoButtonStyle": {
+          "btnBg": {
+            "bgColor": ["#E7E8EB", "#E7E8EB"],
+            "bgOrientation": "LR",
+            "strokeColor": "#A0A3AE",
+            "strokeWidth": 1
+          },
+          "btnTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyDefaultFontMedium"
+          }
+        },
+        "resetDefault": {
+          "btnTextStyle": {
+            "color": "#41465D",
+            "fontType": "lobbyDefaultFont"
+          }
+        },
+        "applyChanges": {
+          "btnBg": {
+            "bgColor": ["#6D2AB6", "#6D2AB6"],
+            "bgOrientation": "LR"
+          },
+          "btnTextStyle": {
+            "color": "#ffffff",
+            "fontType": "lobbyDefaultFont"
+          }
+        }
+      }
+    },
+    "cashTicketsListTheme": {
+      "nameTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "itemBg": {
+        "bgColor": ["#ffffff", "#ffffff"],
+        "bgOrientation": "LR"
+      },
+      "amountTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "stakesTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "statusTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFont"
+      },
+      "dividerColor": "#E7E8EB",
+        "validColor": "#009A4B",
+      "expiredColor": "#D14B54",
+      "otherColor": "#707486"
+    },
+    "cashTicketsUsageDialTheme": {
+      "titleTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyDefaultFont"
+      },
+      "nameTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "itemBg": {
+        "bgColor": ["#141F32", "#141F32"],
+        "bgOrientation": "LR"
+      },
+      "amountTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "itemLabelTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "primaryTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "secondaryTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "statusTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFont"
+      },
+      "amountLeftTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyType1FontMedium"
+      },
+      "amountUsedTextStyle": {
+        "color": "#D14B54",
+        "fontType": "lobbyType1FontMedium"
+      },
+      "validTillTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontMedium"
+      },
+      "titleBgColor": "#E7E8EB",
+      "itemBgColor": "#ffffff"
+    },
+    "noTicketTheme": {
+      "noTicketTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "knowMoreTextStyle": {
+        "color": "#A0A3AE",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "learnMoreTextStyle": {
+        "color": "#1492e6",
+        "fontType": "lobbyDefaultFont"
+      },
+      "ticketInfoTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "activeTableTheme": {
+      "bgColor": "#FFFFFF",
+      "titleTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "itemTextStyle": {
+        "color": "#6D2AB6",
+        "fontType": "lobbyType1FontMedium"
+      }
+    }
+  },
+
+  "tournamentLobbyTheme": {
+    "dividerColor": "#E7E8EB",
+    "screenBackground": {
+      "bgColor": ["#170C29", "#170C29", "#170C29"],
+      "bgOrientation": "LR"
+    },
+    "disabledButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#999999", "#999999"],
+        "bgOrientation": "LR"
+      },
+      "btnTextStyle": {
+        "color": "#666666",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "registerButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#01C981", "#009A4B"],
+        "bgOrientation": "TB"
+      },
+      "btnTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "lateRegButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#C56401", "#C56401"],
+        "bgOrientation": "LR"
+      },
+      "btnTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "observeButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#707486", "#707486"],
+        "bgOrientation": "LR"
+      },
+      "btnTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "headerTheme": {
+      "toolBarTheme": {
+        "toolBarBackground": {
+          "bgColor": ["#1e1e1e", "#1e1e1e"],
+          "bgOrientation": "LR"
+        },
+        "titleTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "menuSettingsTextStyle": {
+        "btnBg": {
+          "bgColor": ["#162233", "#162233"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#f1f1f1",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "tabBarTheme": {
+        "activeBg": {
+          "bgColor": ["#ffffff14", "#ffffff14"],
+          "bgOrientation": "LR"
+        },
+        "inactiveBg": {
+          "bgColor": ["#ffffff14", "#ffffff14", "#ffffff14"],
+          "bgOrientation": "LR"
+        },
+
+        "activeIndicatorBg": {
+          "bgColor": ["#F8D149", "#F8D149", "#F8D149"],
+          "bgOrientation": "LR"
+        },
+
+        "inactiveIndicatorBg": {
+          "bgColor": ["#ffffff14", "#ffffff14", "#ffffff14"],
+          "bgOrientation": "LR"
+        },
+
+        "activeTabTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyDefaultFont"
+        },
+        "inactiveTabTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      }
+    },
+    "tInfoScreenTheme": {
+      "screenBackground": {
+        "bgColor": ["#ffffff", "#ffffff"],
+        "bgOrientation": "LR"
+      },
+      "rulesButtonTheme": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontMedium"
+        }
+      },
+      "blindStructureTheme": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontMedium"
+        }
+      },
+      "dateTheme": {
+        "bg": {
+          "bgColor": ["#41465D", "#41465D"],
+          "bgOrientation": "LR",
+          "strokeColor": "#41465D",
+          "strokeWidth": 2
+        },
+        "hourTextBg": "#707486",
+        "hourTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        },
+        "dayTextBg": "#41465D",
+        "dayTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "startInTimeTheme": {
+        "normalBg": {
+          "bgColor": ["#EBF7F1", "#EBF7F1"],
+          "bgOrientation": "LR"
+        },
+        "startsInBg": {
+          "bgColor": ["#EBF7F1", "#EBF7F1"],
+          "bgOrientation": "LR",
+          "strokeColor": "#009A4B",
+          "strokeWidth": 2
+        },
+        "lateRegBg": {
+          "bgColor": ["#FEF6DB", "#FEF6DB"],
+          "bgOrientation": "LR",
+          "strokeColor": "#C56401",
+          "strokeWidth": 2
+        },
+
+        "titleTextStyle": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "startInTimeTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontRegular"
+        }
+      },
+
+      "prizeDetailsTheme": {
+        "bg": {
+          "bgColor": ["#F3F3F5", "#F3F3F5"],
+          "bgOrientation": "LR"
+        },
+        "divider": "#E7E8EB",
+        "buyInLabelTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyType1FontMedium"
+        },
+        "prizePoolLabelTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyType1FontMedium"
+        },
+
+        "buyInValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        },
+        "prizePoolValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      },
+      "tabsBgTheme": {
+        "btnBg": {
+          "bgColor": ["#2C223C", "#2C223C"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyType1FontMedium"
+        }
+      },
+
+      "tournamentTypeTheme": {
+        "bg": {
+          "bgColor": ["#ffffff", "#ffffff"],
+          "bgOrientation": "LR"
+        },
+        "nlheTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyDefaultFont"
+        },
+        "ploTextStyle": {
+          "color": "#b433ff",
+          "fontType": "lobbyDefaultFont"
+        },
+        "plo5TextStyle": {
+          "color": "#ff1aa3",
+          "fontType": "lobbyDefaultFont"
+        },
+        "seatMaxTextStyle": {
+          "color": "#009A4B",
+          "fontType": "lobbyDefaultFont"
+        },
+        "speedTextStyle": {
+          "color": "#0083ff",
+          "fontType": "lobbyDefaultFont"
+        },
+        "mftTextStyle": {
+          "color": "#fbb03b",
+          "fontType": "lobbyDefaultFont"
+        },
+        "tTypeTextStyle": {
+          "color": "#00d123",
+          "fontType": "lobbyDefaultFont"
+        },
+        "typeValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      },
+
+      "tAllDetailsTheme": {
+        "allLabelTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "allValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      },
+      "othersRankListTheme": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "selfRankListTheme": {
+        "color": "#009A4B",
+        "fontType": "lobbyType1FontRegular"
+      }
+    },
+    "tournamentListTheme": {
+      "headerBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+      "headerTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "oddListBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+      "evenListBg": {
+        "bgColor": ["#F3F3F5", "#F3F3F5"],
+        "bgOrientation": "LR"
+      },
+
+      "itemTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "meItemTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "blindListTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "detailsBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+
+      "labelTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+
+      "valueTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "mspLabelTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "mspValueTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "blindLevelGoldTextStyle": {
+        "color": "#C56401",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "searchEditTextStyle": {
+        "btnBg": {
+          "bgColor": ["#FFFFFF", "#FFFFFF"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "blindTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "buyInTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "playerTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+      "roomNameTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "nlheTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+      "ploTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+      "plo5TextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+      "seatMaxTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+      "bonusTextStyle": {
+        "color": "#111835",
+        "textSize": 8.0,
+        "fontType": "lobbyType1FontRegular"
+      },
+      "ritTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+      "anonTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+      "practiceGameTextBgColor": "#111835",
+      "practiceGameTextStyle": {
+        "color": "#FFFFFF",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "roomNameBgColor": "#111835"
+    },
+    "ticketsListTheme": {
+      "statusTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFont"
+      },
+      "itemBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+      "countTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "labelTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      }
+    }
+  },
+
+  "sngLobbyTheme": {
+    "dividerColor": "#E7E8EB",
+    "screenBackground": {
+      "bgColor": ["#170C29", "#170C29", "#170C29"],
+      "bgOrientation": "LR"
+    },
+    "disabledButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#999999", "#999999"],
+        "bgOrientation": "LR"
+      },
+      "btnTextStyle": {
+        "color": "#666666",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "registerButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#01C981", "#009A4B"],
+        "bgOrientation": "TB"
+      },
+      "btnTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "lateRegButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#C56401", "#C56401"],
+        "bgOrientation": "LR"
+      },
+      "btnTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "observeButtonTheme": {
+      "btnBg": {
+        "bgColor": ["#707486", "#707486"],
+        "bgOrientation": "LR"
+      },
+      "btnTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      }
+    },
+    "headerTheme": {
+      "toolBarTheme": {
+        "toolBarBackground": {
+          "bgColor": ["#1e1e1e", "#1e1e1e"],
+          "bgOrientation": "LR"
+        },
+        "titleTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "menuSettingsTextStyle": {
+        "btnBg": {
+          "bgColor": ["#162233", "#162233"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#f1f1f1",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "tabBarTheme": {
+        "activeBg": {
+          "bgColor": ["#ffffff14", "#ffffff14"],
+          "bgOrientation": "LR"
+        },
+        "inactiveBg": {
+          "bgColor": ["#ffffff14", "#ffffff14", "#ffffff14"],
+          "bgOrientation": "LR"
+        },
+
+        "activeIndicatorBg": {
+          "bgColor": ["#F8D149", "#F8D149"],
+          "bgOrientation": "LR"
+        },
+
+        "inactiveIndicatorBg": {
+          "bgColor": ["#ffffff14", "#ffffff14", "#ffffff14"],
+          "bgOrientation": "LR"
+        },
+
+        "activeTabTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyDefaultFont"
+        },
+        "inactiveTabTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      }
+    },
+    "tInfoScreenTheme": {
+      "screenBackground": {
+        "bgColor": ["#ffffff", "#ffffff"],
+        "bgOrientation": "LR"
+      },
+      "rulesButtonTheme": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontMedium"
+        }
+      },
+      "blindStructureTheme": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontMedium"
+        }
+      },
+      "dateTheme": {
+        "bg": {
+          "bgColor": ["#41465D", "#41465D"],
+          "bgOrientation": "LR",
+          "strokeColor": "#41465D",
+          "strokeWidth": 2
+        },
+        "hourTextBg": "#707486",
+        "hourTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        },
+        "dayTextBg": "#41465D",
+        "dayTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "startInTimeTheme": {
+        "normalBg": {
+          "bgColor": ["#EBF7F1", "#EBF7F1"],
+          "bgOrientation": "LR"
+        },
+        "startsInBg": {
+          "bgColor": ["#EBF7F1", "#EBF7F1"],
+          "bgOrientation": "LR",
+          "strokeColor": "#009A4B",
+          "strokeWidth": 2
+        },
+        "lateRegBg": {
+          "bgColor": ["#FEF6DB", "#FEF6DB"],
+          "bgOrientation": "LR",
+          "strokeColor": "#C56401",
+          "strokeWidth": 2
+        },
+
+        "titleTextStyle": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "startInTimeTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontRegular"
+        }
+      },
+
+      "prizeDetailsTheme": {
+        "bg": {
+          "bgColor": ["#F3F3F5", "#F3F3F5"],
+          "bgOrientation": "LR"
+        },
+        "divider": "#E7E8EB",
+        "buyInLabelTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyType1FontMedium"
+        },
+        "prizePoolLabelTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyType1FontMedium"
+        },
+
+        "buyInValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        },
+        "prizePoolValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      },
+
+      "tournamentTypeTheme": {
+        "bg": {
+          "bgColor": ["#ffffff", "#ffffff"],
+          "bgOrientation": "LR"
+        },
+        "nlheTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyDefaultFont"
+        },
+        "ploTextStyle": {
+          "color": "#b433ff",
+          "fontType": "lobbyDefaultFont"
+        },
+        "plo5TextStyle": {
+          "color": "#ff1aa3",
+          "fontType": "lobbyDefaultFont"
+        },
+        "seatMaxTextStyle": {
+          "color": "#009A4B",
+          "fontType": "lobbyDefaultFont"
+        },
+        "speedTextStyle": {
+          "color": "#0083ff",
+          "fontType": "lobbyDefaultFont"
+        },
+        "mftTextStyle": {
+          "color": "#fbb03b",
+          "fontType": "lobbyDefaultFont"
+        },
+        "tTypeTextStyle": {
+          "color": "#00d123",
+          "fontType": "lobbyDefaultFont"
+        },
+        "typeValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      },
+
+      "tAllDetailsTheme": {
+        "allLabelTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "allValueTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      },
+      "othersRankListTheme": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "selfRankListTheme": {
+        "color": "#009A4B",
+        "fontType": "lobbyType1FontRegular"
+      }
+    },
+    "tournamentListTheme": {
+      "headerBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+      "headerTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "oddListBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+      "evenListBg": {
+        "bgColor": ["#F3F3F5", "#F3F3F5"],
+        "bgOrientation": "LR"
+      },
+
+      "itemTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "meItemTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "blindListTextStyle": {
+        "color": "#f2f2f2",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "detailsBg": {
+        "bgColor": ["#172740", "#172740"],
+        "bgOrientation": "LR"
+      },
+
+      "labelTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+
+      "valueTextStyle": {
+        "color": "#f1f1f1",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "mspLabelTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "mspValueTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "blindLevelGoldTextStyle": {
+        "color": "#ff9215",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "searchEditTextStyle": {
+        "btnBg": {
+          "bgColor": ["#FFFFFF", "#FFFFFF"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "blindTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "buyInTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+      "playerTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+      "roomNameTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "nlheTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFont"
+      },
+      "ploTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFont"
+      },
+      "plo5TextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFont"
+      },
+      "seatMaxTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFont"
+      },
+      "bonusTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "ritTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFont"
+      },
+      "anonTextStyle": {
+        "color": "#0a121e",
+        "fontType": "lobbyDefaultFont"
+      },
+      "practiceGameTextBgColor": "#0a121e",
+      "practiceGameTextStyle": {
+        "color": "#FFFFFF",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "roomNameBgColor": "#0a121e"
+    },
+    "ticketsListTheme": {
+      "statusTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFont"
+      },
+      "itemBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+      "countTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "labelTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      }
+    }
+  },
+
+  "privateTableLobbyTheme": {
+    "emptyListHeaderTextStyle": {
+      "color": "#A0A3AE",
+      "fontType": "lobbyType1FontRegular"
+    },
+    "screenBackground": {
+      "bgColor": ["#170C29", "#170C29"],
+      "bgOrientation": "LR"
+    },
+    "noDataScreenBg": {
+      "bgColor": ["#0e1721", "#0e1721"],
+      "bgOrientation": "LR"
+    },
+    "noDataTextStyle": {
+      "color": "#E5E5E5",
+      "fontType": "lobbyDefaultFont"
+    },
+    "headerTheme": {
+      "toolBarTheme": {
+        "toolBarBackground": {
+          "bgColor": ["#1e1e1e", "#1e1e1e"],
+          "bgOrientation": "LR"
+        },
+        "titleTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "tabBarTheme": {
+        "activeBg": {
+          "bgColor": ["#2C223C", "#2C223C"],
+          "bgOrientation": "LR"
+        },
+        "inactiveBg": {
+          "bgColor": ["#2C223C", "#2C223C", "#2C223C"],
+          "bgOrientation": "LR"
+        },
+        "activeIndicatorBg": {
+          "bgColor": ["#F8D149", "#F8D149"],
+          "bgOrientation": "LR"
+        },
+
+        "inactiveIndicatorBg": {
+          "bgColor": ["#2C223C", "#2C223C", "#2C223C"],
+          "bgOrientation": "LR"
+        },
+
+        "activeTabTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyDefaultFont"
+        },
+        "inactiveTabTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      }
+    },
+    "pvtTableItemTheme": {
+      "dividerColor": "#E7E8EB",
+      "itemBg": {
+        "bgColor": ["#FFFFFF", "#FFFFFF"],
+        "bgOrientation": "LR"
+      },
+
+      "playBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#01C981", "#009A4B"],
+          "bgOrientation": "TB"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+
+      "shareBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#6D2AB6", "#6D2AB6"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+
+      "waitBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#C56401", "#C56401"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "enterPinEditTextStyle": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+
+      "activePlayerLableTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+
+      "activePlayerValueTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+
+      "blindLableTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyDefaultFontRegular"
+      },
+
+      "blindValueTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "buyInLableTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "buyInValueTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "expiryDaysTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyDefaultFontMedium"
+      },
+
+      "createdLabelTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "shareTextStyle": {
+        "color": "#6D2AB6",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "nlheTextStyle": {
+        "color": "#C56401",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "ploTextStyle": {
+        "color": "#6D2AB6",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "plo5TextStyle": {
+        "color": "#B62A7E",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "ritTextStyle": {
+        "color": "#007BC2",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "createdTableHeaderTextStyle": {
+        "color": "#02E4A0",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "goToMyEarningTextStyle": {
+        "color": "#6591b2",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "commissionTheme": {
+        "dividerColor": "#E7E8EB",
+        "commissionValueTextBGColor": "#E7E8EB",
+        "commissionTitleTextStyle": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "commissionValueTextStyle": {
+          "color": "#C56401",
+          "fontType": "lobbyDefaultFontMedium"
+        }
+      }
+    },
+    "commissionHistoryTheme": {
+      "screenBG": "#170C29",
+      "filterSectionBG": "#F3F3F5",
+      "subHeaderTextStyle": {
+        "color": "#02e4a0",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "noDataTextStyle": {
+        "color": "#6591b2",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "headerTheme": {
+        "toolBarTheme": {
+          "toolBarBackground": {
+            "bgColor": ["#1e1e1e", "#1e1e1e"],
+            "bgOrientation": "LR"
+          },
+          "titleTextStyle": {
+            "color": "#ffffff",
+            "fontType": "lobbyType1FontBold"
+          }
+        }
+      },
+      "filterUnselectedTheme": {
+        "btnBg": {
+          "bgColor": ["#141f32", "#141f32"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#6591b2",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+      "filterSelectedTheme": {
+        "btnBg": {
+          "bgColor": ["#0077c8", "#0077c8"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyType1FontRegular"
+        }
+      },
+
+      "commissionHistoryItemTheme": {
+        "itemBg": {
+          "bgColor": ["#FFFFFF", "#FFFFFF"],
+          "bgOrientation": "LR"
+        },
+        "commissionText": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "commissionPlusAmountText": {
+          "color": "#009A4B",
+          "fontType": "lobbyDefaultFont"
+        },
+        "commissionMinusAmountText": {
+          "color": "#D14B54",
+          "fontType": "lobbyDefaultFont"
+        },
+        "balanceKeyText": {
+          "color": "#707486",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "transactionIdKey": {
+          "color": "#707486",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "transactionIdValue": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "balanceValue": {
+          "color": "#111835",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "dateText": {
+          "color": "#41465D",
+          "fontType": "lobbyType1FontRegular"
+        },
+        "transactionSuccess": {
+          "color": "#007BC2",
+          "fontType": "lobbyType1FontMedium"
+        },
+        "transactionFailed": {
+          "color": "#D14B54",
+          "fontType": "lobbyType1FontMedium"
+        },
+        "transactionPending": {
+          "color": "#C56401",
+          "fontType": "lobbyType1FontMedium"
+        }
+      }
+    }
+  },
+
+  "lobbyPopUp": {
+    "commonPopUpBg": {
+      "headerBgColor": "#E7E8EB",
+      "sliderProgressColor": "#009A4B",
+      "sliderThumbColor": "#009A4B",
+      "sliderBgColor": "#E7E8EB",
+      "filterListBgColor": "#ffffff",
+      "checkBoxColor": "#009A4B",
+      "dividerColor": "#E7E8EB",
+      "dividerStyle": {
+        "color": "#E7E8EB",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "dateTextBg": {
+        "btnBg": {
+          "bgColor": ["#172740", "#172740"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#6591b2",
+          "fontType": "lobbyDefaultFontRegular"
+        }
+      },
+      "borderJoinBtnBg": {
+        "btnBg": {
+          "bgColor": ["#FFFFFF", "#FFFFFF"],
+          "bgOrientation": "LR",
+          "strokeColor": "#009A4B",
+          "strokeWidth": 2
+        },
+        "btnTextStyle": {
+          "color": "#009A4B",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+
+      "resetAllTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "headerTitleTextStyle": {
+        "color": "#707486",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "screenBackground": {
+        "bgColor": ["#F3F3F5", "#F3F3F5"],
+        "bgOrientation": "LR"
+      },
+
+      "primaryBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#01C981", "#009A4B"],
+          "bgOrientation": "TB"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "secondaryBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#009A4B", "#009A4B"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "pinkBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#d32a4a", "#d32a4a"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "orangeBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#e5811f", "#e5811f"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "labelTextStyle": {
+        "color": "#41465D",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "closeWalletTextStyle": {
+        "color": "#ea2e51",
+        "fontType": "lobbyDefaultFont"
+      },
+      "valueTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "noteTextStyle": {
+        "color": "#f15a24",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "walletAmountTextStyle": {
+        "color": "#009A4B",
+        "fontType": "lobbyDefaultFont"
+      },
+      "sharePinTextBg": {
+        "bgColor": ["#EEE5F4", "#EEE5F4"],
+        "bgOrientation": "LR"
+      },
+      "shareIconBg": {
+        "bgColor": ["#6D2AB6", "#6D2AB6"],
+        "bgOrientation": "LR"
+      }
+    },
+
+    "createPvtTablePopUp": {
+      "switchTrackSelected": "#39B54A",
+      "switchTrackUnselected": "#5C8099",
+      "switchThumb": "#FFFFFF",
+      "blindListBg": {
+        "bgColor": ["#F3F3F5", "#F3F3F5"],
+        "bgOrientation": "LR"
+      },
+      "dividerColor": "#E7E8EB",
+      "commissionBg": {
+        "bgColor": ["#C56401", "#C56401"],
+        "bgOrientation": "TB"
+      },
+      "buyInBgTheme": {
+        "bgColor": ["#F3F3F5", "#F3F3F5"],
+        "bgOrientation": "LR"
+      },
+      "selectedBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#41465D", "#41465D"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "unSelectedBtnTheme": {
+        "btnBg": {
+          "bgColor": ["#E7E8EB", "#E7E8EB"],
+          "bgOrientation": "LR"
+        },
+
+        "btnTextStyle": {
+          "color": "#707486",
+          "fontType": "lobbyDefaultFont"
+        }
+      }
+    },
+
+    "buyInPopUpTheme": {
+      "walletSectionBg": {
+        "bgColor": ["#F3F3F5", "#F3F3F5"],
+        "bgOrientation": "LR"
+      },
+      "bonusTextBgColor": "#E7E8EB",
+      "walletTextBg": {
+        "bgColor": ["#E7E8EB", "#E7E8EB"],
+        "bgOrientation": "LR",
+        "strokeColor": "#E7E8EB",
+        "strokeWidth": 1
+      },
+      "bonusTextStyle": {
+        "color": "#C56401",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "errorMsgTextStyle": {
+        "color": "#D14B54",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "payingFromTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontMedium"
+      },
+
+      "ticketNameTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "ticketTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "insufficientAmountTextBg": {
+        "btnBg": {
+          "bgColor": ["#0E1721", "#0E1721"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#FFFFFF",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "selectedAmountTextBg": {
+        "btnBg": {
+          "bgColor": ["#0E1721", "#0E1721"],
+          "bgOrientation": "LR"
+        },
+        "btnTextStyle": {
+          "color": "#ffffff",
+          "fontType": "lobbyDefaultFont"
+        }
+      },
+      "bonusCashTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "realCashTextStyle": {
+        "color": "#111835",
+        "fontType": "lobbyDefaultFont"
+      },
+
+      "ticketTitleTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "ticketValueTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+
+      "checkBoxColor": "#009A4B"
+    },
+    "gameSessionPopUpTheme": {
+      "realCashTextBgColor": "#0e1721",
+      "dividerColor": "#283b5c",
+      "ctaColour": "#0077c8",
+      "titleTextStyle": {
+        "color": "#ffffff",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "coinTextStyle": {
+        "color": "#02e4a0",
+        "fontType": "lobbyDefaultFont"
+      },
+      "coinSubTextStyle": {
+        "color": "#ffffff",
+        "fontType": "tableDefaultFontMedium"
+      },
+      "levelTextStyle": {
+        "color": "#02e4a0",
+        "fontType": "tableType1FontRegular"
+      },
+      "levelSubTextStyle": {
+        "color": "#ffffff",
+        "fontType": "tableType1FontRegular"
+      },
+      "levelNeededTextStyle": {
+        "color": "#5bc000",
+        "fontType": "tableType1FontRegular"
+      },
+      "levelNeededSubTextStyle": {
+        "color": "#99bdd8",
+        "fontType": "tableType1FontRegular"
+      },
+      "realCashTextStyle": {
+        "color": "#ffd561",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "realCashReleasedTextStyle": {
+        "color": "#ffd561",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "realCashTotalTextStyle": {
+        "color": "#ffd561",
+        "fontType": "lobbyType1FontRegular"
+      },
+      "realCashAmountTextStyle": {
+        "color": "#ffffff",
+        "fontType": "tableDefaultFontRegular"
+      },
+      "titleBgColor": "#0e1721",
+      "itemBgColor": "#141f32"
+    }
+  }
+}

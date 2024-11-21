@@ -1,0 +1,28 @@
+<resources>
+    <string name="freshchat_file_provider_authority">com.gmng</string>
+
+    <!-- clevertap Accounts test-->
+    <!-- LIVE-->
+  <!--  <string name="clevertap_account_id">TEST-5WK-85W-K56Z</string>
+    <string name="clevertap_token">TEST-05b-305</string>-->
+
+    <string name="clevertap_account_id">4WK-85W-K56Z</string>
+    <string name="clevertap_token">05b-304</string>
+
+ <!--   <string name="facebook_app_id">820211145295951</string>-->
+    <string name="facebook_app_id">776193237460466</string>
+    <string name="fb_login_protocol_scheme">fb776193237460466</string>
+<!--
+    <string name="facebook_client_token">1fb659bc15eec0cac2dc856406659e27</string>
+-->
+
+    <string name="facebook_client_token">0291f439722c31218644f2bf6ede0b4a</string>
+
+
+
+    <!--clevertap live account test-->
+    <!--  <string name="clevertap_account_id">4WK-85W-K56Z</string>
+      <string name="clevertap_token">05b-304</string>-->
+    <string name="game_view_content_description"></string>
+
+</resources>

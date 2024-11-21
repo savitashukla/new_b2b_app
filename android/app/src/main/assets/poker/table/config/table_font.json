@@ -1,0 +1,12 @@
+{
+    "tableDefaultFont": "font/rajdhani_bold.ttf",
+    "tableDefaultFontMedium": "font/rajdhani_medium.ttf",
+    "tableDefaultFontRegular": "font/rajdhani_semi_bold.ttf",
+    "tableType1FontRegular": "font/rubik_regular.ttf",
+    "tableType1FontMedium": "font/rubik_medium.ttf",
+    "tableType1FontBold": "font/rubik_bold.ttf",
+    "tableType2FontRegular": "font/russo_one_regular.ttf",
+    "tableType3FontMedium": "font/oswald_medium.ttf",
+    "tableType3FontRegular": "font/oswald_regular.ttf"
+
+}

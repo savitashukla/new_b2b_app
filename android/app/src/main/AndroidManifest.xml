@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gmng.flutter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+   <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+
+
+
+    <!-- <queries>
+         <provider
+             android:name="com.facebook.FacebookContentProvider"
+             android:authorities="com.facebook.app.FacebookContentProvider1234"
+             android:exported="true" />
+     </queries>-->
+
+    <!-- tools:replace="android:theme|android:authorities|android:resource"-->
+
+    <application
+        android:name="com.clevertap.android.sdk.Application"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme">
+        <!--android:theme="@android:style/Theme.Holo.Light.NoActionBar"-->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="push_notification"/>
+
+        <!-- <activity
+             android:name="com.facebook.FacebookActivity"
+             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+             android:label="@string/app_name" />
+         <activity
+             android:name="com.facebook.CustomTabActivity"
+             android:exported="true">
+             <intent-filter>
+                 <action android:name="android.intent.action.VIEW" />
+
+                 <category android:name="android.intent.category.DEFAULT" />
+                 <category android:name="android.intent.category.BROWSABLE" />
+
+                 <data android:scheme="fb820211145295951" />
+
+             </intent-filter>
+         </activity>-->
+        <!--        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+                <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled"  android:value="false"/>-->
+
+        <!--GMNG ESPORTS-->
+        <!-- CLEVERTAP_ACCOUNT_ID -->
+           <!--<meta-data
+               android:name="CLEVERTAP_ACCOUNT_ID"
+               android:value="TEST-5WK-85W-K56Z" />
+           <meta-data
+               android:name="CLEVERTAP_TOKEN"
+               android:value="TEST-05b-305" />-->
+
+        <meta-data
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="4WK-85W-K56Z" />
+        <meta-data
+            android:name="CLEVERTAP_TOKEN"
+            android:value="05b-304" />
+
+
+        <meta-data
+            android:name="io.flutter.embedding.android.SplashScreenDrawable"
+            android:resource="@drawable/launch_background" />
+
+
+        <!--      <meta-data
+                  android:name="com.facebook.sdk.ClientToken"
+                  android:value="@string/facebook_client_token" />-->
+
+        <activity
+            android:name=".MainActivity2"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation = "portrait">
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+            <!--
+                 Specifies an Android theme to apply to this Activity as soon as
+                 the Android process has started. This theme is visible to the user
+                 while the Flutter UI initializes. After that, this theme continues
+                 to determine the Window background behind the Flutter UI.
+            -->
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_channel_id"
+                android:value="gmngflutter" />
+            <!--
+                 Displays an Android View that continues showing the launch screen
+                 Drawable until Flutter paints its first frame, then this splash
+                 screen fades out. A splash screen is useful to avoid any visual
+                 gap between the end of Android's launch screen and the painting of
+                 Flutter's first frame.
+            -->
+            <meta-data
+                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+                android:resource="@drawable/launch_background" />
+
+
+
+            <intent-filter>
+                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!--<intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="app.appsflyer.com"
+                    android:pathPrefix="/"
+                    android:scheme="https" />
+            </intent-filter>--><!--we have commented for helping trago ppl-->
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="gmng.pro"
+                    android:pathPrefix="/"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="gmng.onelink.me"
+                    android:pathPrefix="/"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="gmng.onelink.me"
+                    android:pathPrefix="/GRb6"
+                    android:scheme="https" />
+            </intent-filter><!--GRb6 d8n0 -->
+
+        </activity>
+
+        <activity
+            android:name="com.unity3d.player.UnityPlayerActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTask"
+            android:process=":unityplayer"
+            android:screenOrientation="portrait"
+            android:theme="@style/UnityThemeSelector">
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+        </activity>
+        <!--
+ Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+        -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+
+        <meta-data
+            android:name="com.truecaller.android.sdk.PartnerKey"
+            android:value="eoWAA20cb141037f34ce1b85b91fc98586fdd" /> <!--Pro-->
+
+   <!--     <meta-data
+            android:name="com.truecaller.android.sdk.PartnerKey"
+            android:value="Pcymr1b7cc7a4559443d6980cfaee9d2453b3" />-->
+<!--
+            android:value="IW18w59ceaa6001a5455fa310e1aad9501271" />
+-->
+
+        <!-- <meta-data
+             android:name="com.truecaller.android.sdk.PartnerKey"
+             android:value="eoWAA20cb141037f34ce1b85b91fc98586fdd" /> eSports release -->
+
+        <!--<meta-data
+            android:name="com.truecaller.android.sdk.PartnerKey"
+            android:value="LbuPba51f9a216a38415e8b7f325c201be48e" />--><!--eSports playstore-->
+
+
+        <service
+            android:name="com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <!--   android:authorities="com.gmng.fantasy"-->
+        <!--   android:authorities="com.gmng.esport"-->
+        <!--   android:authorities="com.staging"--><!--NOT USED NOW-->
+        <!--   android:authorities="com.gmng.staging"-->
+        <!--   android:authorities="com.gmng"-->
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/freshchat_file_provider_paths" />
+        </provider>
+
+        <!-- <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@mipmap/ic_launcher"
+             />-->
+
+    </application>
+
+</manifest>

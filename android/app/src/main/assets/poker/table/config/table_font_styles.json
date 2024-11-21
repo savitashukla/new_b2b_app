@@ -1,0 +1,453 @@
+{
+  "menu": {
+    "titleText": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#93b4fd",
+      "colorSecondary": "#ff4668"
+    },
+    "foldToAnyBet": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#93b4fd",
+      "colorSecondary": "#ffffff"
+    },
+    "sitOut": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#93b4fd",
+      "colorSecondary": "#ffffff"
+    }
+  },
+  "chat": {
+    "tab_text": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#a2aece",
+      "colorSecondary": "#ffffff"
+    },
+    "chat_prefix": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff",
+      "colorSecondary": "#39b449"
+    },
+    "chat_message": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#a2aece",
+      "colorSecondary": "#39b449"
+    },
+    "chat_hint": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#a2aece"
+    }
+  },
+  "confirmationPopUp": {
+    "headerText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "bodyText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "buttonText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    }
+  },
+  "welcomeAndBreakPopUp": {
+    "headerText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#d57625"
+    },
+    "bodyText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "timerCountText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "timerText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    }
+  },
+  "gameEndPopUp": {
+    "eliminatedHeaderText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#e5554e"
+    },
+    "winnerHeaderText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#e9a726"
+    },
+    "bodyText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "rankTitleText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#93b4fd"
+    },
+    "rankText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "mftNameText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#a2aece"
+    }
+  },
+  "joinAndTopUpPopUp": {
+    "headerText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "cashAmountText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "tableBlindsKey": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#6591b2"
+    },
+    "buyInAmountKey": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#6591b2"
+    },
+    "tableBlindsValue": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#ffca1b"
+    },
+    "buyInAmountValue": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "minValue": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#a2aece"
+    },
+    "maxValue": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#a2aece"
+    },
+    "timerTitleText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#6591b2",
+      "colorSecondary": "#ea2e51"
+    },
+    "timerText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ff1918"
+    },
+    "ticketsKey": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "ticketsValue": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "buttonText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff",
+      "colorSecondary": "#666666"
+    }
+  },
+  "userNotePopup": {
+    "listText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "messageText": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#93b4fd"
+    },
+    "buttonText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "hintText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#4c5b72"
+    }
+  },
+  "infoPopUp": {
+    "cashGameTitleText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "cashGameTabText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#6591b2",
+      "colorSecondary": "#ffffff"
+    },
+    "cashGameStaticsTabText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#6591b2"
+    },
+    "cashGameStaticsUserNameText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff",
+      "colorSecondary": "#02e4a0"
+    },
+    "cashGameStaticsBuyInAmount": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "cashGameStaticsWinningsText": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#39b449",
+      "colorSecondary": "#f45a4f"
+    },
+    "cashGameInfoKeyText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#608aaa",
+      "colorSecondary": "#1492e6"
+    },
+    "cashGameInfValueText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "mttTitleText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff"
+    },
+    "mttTabText": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#6591b2",
+      "colorSecondary": "#ffffff"
+    },
+    "mttStaticsInfoKeyText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#65829e",
+      "colorSecondary": "#02e4a0"
+    },
+    "mttStaticsInfoValueText": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "mttGameInfoTabText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#6591b2",
+      "colorSecondary": "#ffffff"
+    },
+    "mttGameInfoHeaderText": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#6591b2"
+    },
+
+      "mttGameOtherText": {
+        "font": "tableDefaultFontRegular",
+        "colorPrimary": "#ffffff",
+        "colorSecondary": "#02e4a0"
+      },
+      "mttGameInfoUserNameText": {
+        "font": "tableType1FontRegular",
+        "colorPrimary": "#ffffff"
+      }
+
+  },
+  "tableTexts" : {
+    "moreSettingsText": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#93b4fd"
+    },
+    "settingsPopupTitleText": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#a2aece"
+    },
+    "playerName": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff",
+      "colorSecondary": "#02d5e4"
+    },
+    "playerStack": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffca1b"
+    },
+    "actionStatus": {
+      "font": "tableType2FontRegular",
+      "colorPrimary": "#381d0a"
+    },
+    "handWinnerHandStrength": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#2e0000"
+    },
+    "totalPotKey": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffff00"
+    },
+    "totalPotValue": {
+      "font": "tableType1FontBold",
+      "colorPrimary": "#ffffff"
+    },
+    "chipsValue": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "emptySeat": {
+      "font": "tableType3FontMedium",
+      "colorPrimary": "#a2aece",
+      "colorSecondary" : "#02e4a0"
+    },
+    "toastText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffca1b"
+    },
+    "multiTableText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#93b4fd",
+      "colorSecondary": "#ffffff"
+    },
+    "handStrength": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#02e4a0",
+      "colorSecondary": "#ffffff"
+    },
+    "raiseSliderText": {
+      "font": "tableType2FontRegular",
+      "colorPrimary": "#93b4ff"
+    },
+    "actionButtonText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+    "actionBetTextStyle": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffca1b"
+    },
+    "prePlayActionText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#a2aece",
+      "colorSecondary": "#ffffff"
+    },
+    "mttBBText": {
+      "font": "tableType3FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "timeBankText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+    "iamBackText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+    "autoPostBBText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#a2aece",
+      "colorSecondary": "#ffffff"
+    },
+    "waitListText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#a2aece",
+      "colorSecondary": "#ffffff"
+    },
+
+    "chatBubbleStyle": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#171717"
+    },
+
+    "pogLabelText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+
+    "connectionLost": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+
+    "potOfGoldWinnerText": {
+      "font": "tableType1FontBold",
+      "colorPrimary": "#ffffff"
+    },
+
+    "potOfGoldAmountText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+
+    "handStrengthCardText": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#171717",
+      "colorSecondary" : "#bf2129"
+    },
+
+    "evcNormalBtnTextStyle": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+    "evcBtnTextStyle": {
+      "font": "tableType1FontMedium",
+      "colorPrimary": "#ffffff"
+    },
+    "evcPotBtnTextStyle": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffff00",
+      "colorSecondary" : "#ffffff"
+    }
+  },
+  "myStats": {
+    "myStatsTextHeadings": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff",
+      "colorSecondary" : "#93b4fd"
+    },
+    "myStatsTextTitles": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#608aaa",
+      "colorSecondary" : "#02e4a0"
+    },
+    "myStatsTextValues": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "currentStackStatusTextValues": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff"
+    },
+    "currentStackStatusTitle": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#02e4a0"
+    },
+    "currentStackStatusWinning": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#02e4a0",
+      "colorSecondary" : "#f45a4f"
+    }
+  },
+  "reEntryPopUp": {
+    "keyTextStyle": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#a2aece",
+      "colorSecondary" : "#ffffff"
+    },
+    "valueTextStyle": {
+      "font": "tableDefaultFontRegular",
+      "colorPrimary": "#ffffff"
+    },
+
+    "boldTextStyle": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff",
+      "colorSecondary" : "#39af4a"
+    },
+    "timerLabelTextStyle": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff",
+      "colorSecondary" : "#a2aece"
+    }
+  },
+  "allInCoverInfoPopUp": {
+    "boldTextStyle": {
+      "font": "tableDefaultFont",
+      "colorPrimary": "#ffffff",
+      "colorSecondary" : "#39af4a"
+    },
+    "infoTextStyle": {
+      "font": "tableType1FontRegular",
+      "colorPrimary": "#ffffff",
+      "colorSecondary" : "#a2aece"
+    }
+  }
+}

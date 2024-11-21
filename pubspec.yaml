@@ -1,0 +1,204 @@
+name: gmng
+description: gmng application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.0.0+1
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  progress_dialog: ^1.1.0
+  shared_preferences: ^2.0.9
+ # http_parser: ^4.0.0
+  fluttertoast: ^8.0.8
+  webview_flutter: ^3.0.4
+  carousel_slider: ^4.1.1
+  url_launcher: ^6.0.15
+  font_awesome_flutter: ^9.2.0
+  #video_player: ^2.4.2
+  dio: ^4.0.6
+  get: 4.6.1
+  sms_autofill:
+  dotted_line: ^3.1.0
+  clipboard: ^0.1.3
+  dotted_border: ^2.0.0
+  swipe_button: ^0.0.2
+  slidable_button: ^1.3.1
+  intl: ^0.17.0
+  razorpay_flutter: ^1.2.8
+  shimmer: ^2.0.0
+  flutter_otp_text_field: ^1.0.0
+  pin_code_fields: ^7.4.0
+  image_picker: ^0.8.5+3
+  share_plus: ^4.0.7
+  freshchat_sdk: ^0.9.7
+  rounded_loading_button: ^2.1.0
+  firebase_core:
+  firebase_messaging:
+  flutter_local_notifications: ^9.1.2
+  firebase_crashlytics:
+  firebase_analytics:
+  #event management
+  #appsflyer_sdk: ^6.0.3+2
+  appsflyer_sdk:
+  clevertap_plugin: ^1.5.4
+  #facebook_app_events: ^0.16.0
+  #flutter_facebook_sdk: ^1.0.0
+  pin_code_text_field: ^1.8.0
+  cached_network_image: ^3.2.1
+  flutter_html:
+  chewie: ^1.3.4
+  #social_share:
+  geolocator: ^9.0.2
+  geocoding: ^2.0.0
+  package_info_plus:
+  path_provider: ^2.0.2
+  permission_handler: ^10.1.0
+  #fluttercontactpicker: ^4.5.1
+  get_storage: ^2.0.3
+  firebase_dynamic_links: ^2.0.6
+  percent_indicator:
+  phone_number:
+  internet_connection_checker: ^0.0.1+4
+  connectivity_plus: ^2.3.5
+  flutter_social_content_share:
+  #truecaller_sdk:
+  open_file: ^3.2.1
+  truecaller_sdk:
+  device_apps:
+  lottie:
+  flutter_animated_button:
+  add_to_cart_animation: ^1.0.1
+  flutter_svg: ^1.1.6
+  flutter_inset_box_shadow: ^1.0.8
+  in_app_update: ^4.0.1
+  blurrycontainer: 1.0.2
+  cashfree_pg:
+  whatsapp_share:
+  #telephony: ^0.2.0
+  #otp_text_field: ^1.1.3
+  wakelock:
+  gradient_borders:
+  #device_info: ^0.4.0+4
+  device_info_plus:
+  #flutter_facebook_sdk:
+  device_information:
+  smooth_star_rating:
+  flutter_unique_device_id:
+  android_multiple_identifier:
+  liquid_progress_indicator:
+  status_bar_control:
+  sentry_flutter:
+  onetaplogin: ^1.1.9
+  tutorial_coach_mark: ^1.2.9
+  flutter_shake_animated:
+
+
+
+
+
+
+
+dependency_overrides:
+  #pin_input_text_field: 4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  facebook_app_events:
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/files/
+    - assets/images/
+    - assets/lottie_files/
+
+
+    #- assets/video/splash_ss.mp4
+    - assets/images/login_bg.webp
+    - assets/images/home_bg_full.webp
+    - assets/images/profile_bg.webp
+    - assets/images/login_bg.webp
+    - assets/images/gmng_bg.png
+    - assets/index.html
+    - assets/images/home_bg.webp
+    - assets/images/rewards_bg_bottom.webp
+    - assets/images/profile_top.webp
+    - assets/images/profile_bottom_new.webp
+    - assets/images/youtube.png
+    - assets/images/location_per.png
+    - assets/images/plus_new_icon.png
+    - assets/images/hole_popup_bg.png
+    - assets/images/ludo_king_bg.png
+    - assets/lottie_files/bust.json
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter-Light.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter-Thin.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+
+
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

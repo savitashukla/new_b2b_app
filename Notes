@@ -1,0 +1,25 @@
+
+//status-> inactive, active, completed, resultDeclated, winningDistributed
+
+ "apiKey": "rzp_test_bKghF3P0aA8nzz",
+ "apiSecret": "WpC9nYCKEasaTmRNa7Gf4D3q",
+ "webhookSecret": "cff447b5-9978-4a55-8abe-b82d4b30e0f6",
+ "accountNumber": "2323230063538167"
+
+ flutter build apk --release  --no-shrink  --flavor playstore -t lib/main_playstore.dart
+ flutter build apk --release  --no-shrink  --flavor production -t lib/main_production.dart
+ flutter build apk --release  --no-shrink  --flavor staging -t lib/main_staging.dart
+
+ flutter run apk --release --flavor production -t lib/main_production.dart
+ flutter build apk --flavor playstore -t lib/main_playstore.dart
+ flutter build apk --flavor production -t lib/main.dart
+
+ flutter run apk --release --flavor production -t lib/main.dart
+ flutter build appbundle --flavor playstore -t lib/main_playstore.dart
+ flutter build apk --target-platform android-arm --analyze-size --release  --no-shrink  --flavor staging -t lib/main_staging.dart
+
+
+ flutter run apk --release --flavor playstore -t lib/main_playstore.dart
+ flutter run apk --release --flavor production -t lib/main_production.dart
+
+ "/Users/savitashukla/Documents/savita_jan/SDK UPDATED/flutter/bin/flutter"  build apk --release --no-tree-shake-icons  --flavor production -t lib/main_production.dart

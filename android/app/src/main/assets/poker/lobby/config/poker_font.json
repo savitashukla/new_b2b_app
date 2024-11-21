@@ -1,0 +1,10 @@
+{
+  "fontFamily": {
+    "lobbyDefaultFont": "font/rajdhani_bold.ttf",
+    "lobbyDefaultFontMedium": "font/rajdhani_medium.ttf",
+    "lobbyDefaultFontRegular": "font/rajdhani_semi_bold.ttf",
+    "lobbyType1FontRegular": "font/rubik_regular.ttf",
+    "lobbyType1FontMedium": "font/rubik_medium.ttf",
+    "lobbyType1FontBold": "font/rubik_bold.ttf"
+  }
+}

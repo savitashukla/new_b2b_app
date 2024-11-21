@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <bitmap
+            android:src="@drawable/make_splash"
+        />
+    </item>
+
+   <!-- <item>
+        <bitmap
+            android:src="@drawable/progresbar_images"
+            />
+    </item>-->
+
+
+</layer-list>

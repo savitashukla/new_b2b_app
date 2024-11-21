@@ -1,0 +1,38 @@
+{
+  "prefix_comment": {
+    "mn": "mini_wallet_popUp"
+  },
+
+  "lobbyConfig": {
+    "mn_headerPokerTitle": "Poker",
+    "mn_vendorTitle": "GMNG Wallet",
+    "mn_vendor_winningCashLabel": "Winnings Cash",
+    "mn_vendor_depositCashLabel": "Deposit Cash",
+    "mn_vendor_bonusCashLabel": "Bonus Cash",
+    "mn_wallet_primary_button_text": "Add Cash",
+
+    "mn_pokerTitle": "Poker Wallet",
+    "mn_poker_winningCashLabel": "Winnings Cash",
+    "mn_poker_depositCashLabel": "Deposit Cash",
+    "mn_poker_bonusCashLabel": "Bonus Cash",
+    "mn_wallet_secondary_button_text": "Transfer",
+    "mn_wallet_tds_text": ""
+  },
+
+  "headerItems": [
+    {
+      "title": "HOW TO PLAY",
+      "iconPath": "poker/lobby/img/ic_header_leaderbord_help.png",
+
+      "clickAction": "OPEN_LEADER_BOARD"
+    }
+  ],
+
+  "menuItems": [
+    {
+      "title": "HELP",
+      "iconPath": "poker/lobby/img/ic_help.png",
+      "clickAction": "OPEN_HELP"
+    }
+  ]
+}
